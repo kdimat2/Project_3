@@ -1,6 +1,47 @@
 /* Place CSS styles here */
 
+/* Styling :) */
+.background-color {
+    color: #19213e;;
+}
+
+.batman-qoute {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: darkblue;
+    margin-left: 50px;
+    text-align: center;
+}
+
 /* Enter Page */
+
+.intro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #19213e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150px;
+    font-weight: 700;
+    color: white;
+    border: 8px solid white;
+    border-radius: 9999px;
+    padding: 40px 80px;
+    cursor: pointer;
+}
+
+.intro-text:hover {
+    background-color: rgb(0, 0, 0);
+    color: #FDE311;
+}
 
 
 /* keyframes for enter page */
@@ -35,4 +76,26 @@
 
 .fade-in-out {
     animation: fadeIn 1s ease, fadeOut 2s ease 3s;
+}
+
+/* image wrappers */
+
+.The-signal-wrapper img {
+    transform: translate(100px, 50px) scale(-1);
+    transition: all 1s ease;
+    width: 100px;
+}
+
+.The-signal-wrapper img {
+    transform: translate(100px, 50px) scale(1);
+}
+
+.The-red-hood img {
+    transform: translate(100px, 50px) scale(1);
+    transition: all 1s ease;
+    width: 100px;
+}
+
+.The-red-hood img {
+    transform: translate(100px, 50px) scale(-1);
 }
