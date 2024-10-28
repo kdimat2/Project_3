@@ -1,31 +1,6 @@
 /* Place CSS styles here */
 
 /* Enter Page */
-.intro {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: lightsteelblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.intro-text {
-    font-size: 200px;
-    font-weight: 700;
-    border: 8px solid black;
-    border-radius: 9999px;
-    padding: 40px 80px;
-    cursor: pointer;
-}
-
-.intro-text:hover {
-    background-color: black;
-    color: white;
-}
 
 
 /* keyframes for enter page */
