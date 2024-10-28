@@ -1,1 +1,63 @@
 /* Place CSS styles here */
+
+/* Enter Page */
+.intro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: lightsteelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text {
+    font-size: 200px;
+    font-weight: 700;
+    border: 8px solid black;
+    border-radius: 9999px;
+    padding: 40px 80px;
+    cursor: pointer;
+}
+
+.intro-text:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* keyframes for enter page */
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+/* animation for enter page */
+.fade-in {
+    animation: fadeIn 2s ease forwards;
+}
+
+.fade-out {
+    animation: fadeOut 2s ease forwards;
+}
+
+.fade-in-out {
+    animation: fadeIn 1s ease, fadeOut 2s ease 3s;
+}
