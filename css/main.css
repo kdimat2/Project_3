@@ -1,9 +1,6 @@
 /* Place CSS styles here */
 
 /* Styling :) */
-.background-color {
-    color: #19213e;;
-}
 
 .batman-qoute {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -11,6 +8,7 @@
     color: darkblue;
     margin-left: 50px;
     text-align: center;
+    padding-top: 50px;
 }
 
 /* Enter Page */
@@ -98,4 +96,19 @@
 
 .The-red-hood img {
     transform: translate(100px, 50px) scale(-1);
+}
+
+.The-signal-wrapper:hvr-buzz-out {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+@keyframes hvr-buzz-out {
+    30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+    }
 }
