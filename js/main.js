@@ -1,7 +1,10 @@
 // JS scripts placed here
-const element = document.getElementById('enter-button')
-const intro = document.getElementById('intro')
+const element = document.getElementById('enter-button');
+const intro = document.getElementById('intro');
+const page = document.body;
 
+console.log(page);
 element.addEventListener('click', () => {
-    intro.classList.add('fade-out')
+    page.classList.add('entered');
+    intro.classList.add('fade-out');
 })
