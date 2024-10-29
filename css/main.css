@@ -88,15 +88,15 @@ body {
 
 .signal-img {
     position: absolute; 
-    left: 1000px;
-    top: 50px; 
+    left: 450px;
+    top: 260px;
     width: 100px;
     animation: buzz-out 3s infinite;
 }
 
 .red-hood-img {
     position: absolute; 
-    left: 300px;
+    left: 250px;
     top: 20px;
     width: 100px;
     animation: buzz-out 3s infinite;
@@ -104,32 +104,53 @@ body {
 
 .lego-batman-img {
     position: absolute; 
-    left: 1000px;
     left: 1100px;
-    top: 90px; 
+    top: 80px; 
+    width: 100px;
     animation: buzz-out 3s infinite;
 }
 
 .nightwing-img {
     position: absolute; 
     left: 1000px;
-    top: 50px; 
-    width: 300px;
+    top: 260px; 
+    width: 100px;
+    animation: buzz-out 3s infinite;
+}
+
+.black-bat-img {
+    position: absolute; 
+    left: 0px;
+    top: 0px; 
+    width: 100px;
+    animation: buzz-out 3s infinite;
+}
+
+.spoiler-img {
+    position: absolute; 
+    left: 2px;
+    top: 0px; 
+    width: 100px;
     animation: buzz-out 3s infinite;
 }
 
 /* images appear after enter */
-
 .signal-img,
 .red-hood-img,
-.lego-batman-img {
+.lego-batman-img,
+.nightwing-img,
+.spoiler-img 
+.black-bat-img {
     opacity: 0;
     transition: all 1.5s ease;
 }
 
 .entered .signal-img,
 .entered .red-hood-img,
-.entered .lego-batman-img {
+.entered .lego-batman-img,
+.entered .nightwing-img,
+.entered .black-bat-img,
+.entered.spoiler-img {
     opacity: 1;
 }
 
