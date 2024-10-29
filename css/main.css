@@ -87,18 +87,35 @@ body {
 /* image wrappers */
 
 .signal-img {
-    transform: translate(100px, -130px) scale(1);
+    position: absolute; 
+    left: 1000px;
+    top: 50px; 
     width: 100px;
+    animation: buzz-out 3s infinite;
 }
 
 .red-hood-img {
-    transform: translate(40px, -580px) scale(1);
+    position: absolute; 
+    left: 300px;
+    top: 20px;
     width: 100px;
+    animation: buzz-out 3s infinite;
 }
 
 .lego-batman-img {
-    transform: translate(700px, -500px) scale(1);
-    width: 100px;
+    position: absolute; 
+    left: 1000px;
+    left: 1100px;
+    top: 90px; 
+    animation: buzz-out 3s infinite;
+}
+
+.nightwing-img {
+    position: absolute; 
+    left: 1000px;
+    top: 50px; 
+    width: 300px;
+    animation: buzz-out 3s infinite;
 }
 
 /* images appear after enter */
@@ -117,54 +134,26 @@ body {
 }
 
 /* animation for images */
-@keyframes hvr-buzz-out {
-    10% {
-        -webkit-transform: translateX(3px) rotate(2deg);
-        transform: translateX(3px) rotate(2deg);
+
+@keyframes buzz-out {
+    0% {
+        transform: scale(1);
     }
     20% {
-        -webkit-transform: translateX(-3px) rotate(-2deg);
-        transform: translateX(-3px) rotate(-2deg);
-    }
-    30% {
-        -webkit-transform: translateX(3px) rotate(2deg);
-        transform: translateX(3px) rotate(2deg);
+        transform: scale(1.1) rotate(4deg);
     }
     40% {
-        -webkit-transform: translateX(-3px) rotate(-2deg);
-        transform: translateX(-3px) rotate(-2deg);
-    }
-    50% {
-        -webkit-transform: translateX(2px) rotate(1deg);
-        transform: translateX(2px) rotate(1deg);
+        transform: scale(0.9) rotate(-2deg);
     }
     60% {
-        -webkit-transform: translateX(-2px) rotate(-1deg);
-        transform: translateX(-2px) rotate(-1deg);
-    }
-    70% {
-        -webkit-transform: translateX(2px) rotate(1deg);
-        transform: translateX(2px) rotate(1deg);
+        transform: scale(1.1) rotate(4deg);
     }
     80% {
-        -webkit-transform: translateX(-2px) rotate(-1deg);
-        transform: translateX(-2px) rotate(-1deg);
-    }
-    90% {
-        -webkit-transform: translateX(1px) rotate(0);
-        transform: translateX(1px) rotate(0);
+        transform: scale(0.9) rotate(-2deg);
     }
     100% {
-        -webkit-transform: translateX(-1px) rotate(0);
-        transform: translateX(-1px) rotate(0);
+        transform: scale(1);
     }
 }
 
-.The-signal-wrapper:hvr-buzz-out {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
 
