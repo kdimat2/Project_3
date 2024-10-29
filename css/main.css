@@ -101,6 +101,8 @@ body {
     width: 100px;
 }
 
+/* images appear after enter */
+
 .signal-img,
 .red-hood-img,
 .lego-batman-img {
@@ -165,3 +167,4 @@ body {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
+
