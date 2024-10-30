@@ -1,6 +1,6 @@
 /* Place CSS styles here */
 
-/* Styling :) */
+/* Styling for text and page :) */
 
 .batman-qoute {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -19,7 +19,7 @@ body {
     background-attachment: fixed;
   }
 
-/* Enter Page */
+/* Enter Page Styling */
 
 .intro {
     position: absolute;
@@ -72,6 +72,7 @@ body {
 }
 
 /* animation for enter page */
+
 .fade-in {
     animation: fadeIn 2s ease forwards;
 }
@@ -84,7 +85,7 @@ body {
     animation: fadeIn 1s ease, fadeOut 2s ease 3s;
 }
 
-/* image wrappers */
+/* image styling */
 
 .signal-img {
     position: absolute; 
@@ -120,27 +121,29 @@ body {
 
 .black-bat-img {
     position: absolute; 
-    left: 0px;
-    top: 0px; 
+    left: 150px;
+    top: 150px; 
     width: 100px;
     animation: buzz-out 3s infinite;
 }
 
 .spoiler-img {
     position: absolute; 
-    left: 2px;
-    top: 0px; 
+    left: 1200px;
+    top: 230px; 
     width: 100px;
     animation: buzz-out 3s infinite;
 }
 
 /* images appear after enter */
+
 .signal-img,
 .red-hood-img,
 .lego-batman-img,
 .nightwing-img,
-.spoiler-img 
-.black-bat-img {
+.spoiler-img,
+.black-bat-img, 
+.Batman-audio {
     opacity: 0;
     transition: all 1.5s ease;
 }
@@ -150,7 +153,8 @@ body {
 .entered .lego-batman-img,
 .entered .nightwing-img,
 .entered .black-bat-img,
-.entered.spoiler-img {
+.entered .spoiler-img,
+.entered .Batman-audio {
     opacity: 1;
 }
 
@@ -177,4 +181,10 @@ body {
     }
 }
 
+/* audio */
 
+.Batman-audio {
+    top: 20px;
+    left: 600px;
+    position: fixed;
+}
