@@ -5,10 +5,11 @@
 .batman-qoute {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
-    color: rgb(255, 255, 255);
+    color: white;
     margin-left: 50px;
     text-align: center;
     padding-top: 50px;
+    text-shadow: 2px 5px #b99d018c;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-  }
+}
 
 /* Enter Page Styling */
 
@@ -188,3 +189,4 @@ body {
     left: 600px;
     position: fixed;
 }
+
