@@ -93,7 +93,7 @@ body {
     left: 450px;
     top: 260px;
     width: 100px;
-    animation: buzz-out 3s infinite;
+    animation: buzz-out 2s infinite;
 }
 
 .red-hood-img {
@@ -101,7 +101,7 @@ body {
     left: 250px;
     top: 20px;
     width: 100px;
-    animation: buzz-out 3s infinite;
+    animation: buzz-out 2s infinite;
 }
 
 .lego-batman-img {
@@ -109,7 +109,7 @@ body {
     left: 1100px;
     top: 80px; 
     width: 100px;
-    animation: buzz-out 3s infinite;
+    animation: buzz-out 2s infinite;
 }
 
 .nightwing-img {
@@ -117,7 +117,7 @@ body {
     left: 1000px;
     top: 260px; 
     width: 100px;
-    animation: buzz-out 3s infinite;
+    animation: buzz-out 2s infinite;
 }
 
 .black-bat-img {
@@ -125,7 +125,7 @@ body {
     left: 150px;
     top: 150px; 
     width: 100px;
-    animation: buzz-out 3s infinite;
+    animation: buzz-out 2s infinite;
 }
 
 .spoiler-img {
@@ -133,7 +133,7 @@ body {
     left: 1200px;
     top: 230px; 
     width: 100px;
-    animation: buzz-out 3s infinite;
+    animation: buzz-out 2s infinite;
 }
 
 /* images appear after enter */
